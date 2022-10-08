@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(212, 230, 173);
+  }
+  
+  h1 {
+    color: rgb(25, 18, 18);
+    text-align: center;
+  }
+
+  button {
+    background-color: rgb(216, 112, 207);
+    font-size: 16px;
+    color: white;
+    padding: 15px 35px;
+    border: 0;
+    width: auto;
+    margin-top: 10px;
+    font-weight: 600; 
+    
+  }
+  
+ 

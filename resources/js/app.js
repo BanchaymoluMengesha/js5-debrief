@@ -7,3 +7,31 @@
 // 5. A button named 'Clear' that removes the populated list from the screen
 // 6. The application should be designed to be visually pleasing. 
 // Note: Do not spend too much time on design. Focus primarily on functionality(i.e. steps 1-5).
+
+
+
+
+
+
+// Returns a random number:
+
+let names = ['ethiopia', 'Islam', 'Alebachew', 'Hareg', 'Banchaymolu', 'Tesfaye',' Belinda', 'Amanda','Sheida', 'Solomon']
+ 
+
+let button = document.getElementById('btn');
+
+let name1 = document.getElementById('name');
+
+function nameSelector(){
+
+    let random = Math.floor(Math.random() * names.length);
+    return names[random];
+}
+    function showNames(){
+    name1.innerHTML = nameSelector();
+    button.style.color =pointer;
+    }
+    
+
+
+button.addEventListener('click', showNames);
